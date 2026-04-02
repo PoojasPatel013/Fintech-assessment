@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: fintech-app:local
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/app.db
+    volumes:
+      - ./data:/app/data
