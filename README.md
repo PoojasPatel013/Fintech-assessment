@@ -110,6 +110,3 @@ GitHub Actions runs:
 
 Match line length and ignores via [`.flake8`](.flake8).
 
-## License
-
-Provided as an assessment template; adapt as needed for your organization.
